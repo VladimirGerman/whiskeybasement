@@ -179,7 +179,6 @@ header {
     background: url("icons/pause.png");
     background-repeat: no-repeat;
     background-size: contain;
-    display: none;
 }
 .hidden {
     display: none;
