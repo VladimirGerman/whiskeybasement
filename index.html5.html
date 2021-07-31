@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Whiskey basement</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header class="header">
+        <img class="header__logo" src="images/logo.png">
+        <nav class="header__nav">
+            <a class="header__link" href="#">Home</a>
+            <a class="header__link" href="#">History</a>
+            <a class="header__link" href="#">Brands</a>
+            <a class="header__link" href="#">Media</a>
+            <a class="header__link" href="#">Humor</a>
+        </nav>
+    </header>
+
+    <section class="music">
+        <h2 class="music__heading">Open the Bottle</h2>
+        <p class="music__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad at beatae deleniti dignissimos fugiat inventore laborum minus nam natus necessitatibus, nisi nobis officia porro quam qui repellendus reprehenderit sed voluptatem</p>
+        <div class="music__songs songs">
+
+            <div class="songs__song">
+                <div class="songs__description">
+                    <h4 class="songs__name">Alabama Song Whisky Bar</h4>
+                    <p class="songs__author">The Doors</p>
+                </div>
+                <button class="songs__play">
+                    <i class="songs__icon songs__icon_play"></i>
+                    <i class="songs__icon songs__icon_pause hidden"></i>
+                </button>
+                <audio src="music/alabama_song_whisky_bar.mp3" ></audio>
+            </div>
+
+            <div class="songs__song">
+                <div class="songs__description">
+                    <h4 class="songs__name">Whiskey Drinkin Woman</h4>
+                    <p class="songs__author">Nazareth</p>
+                </div>
+                <button class="songs__play">
+                    <i class="songs__icon songs__icon_play"></i>
+                    <i class="songs__icon songs__icon_pause hidden"></i>
+                </button>
+                <audio src="music/whiskey_drinkin_woman.mp3"><</audio>
+            </div>
+
+            <div class="songs__song">
+                <div class="songs__description">
+                    <h4 class="songs__name">Whiskey Man</h4>
+                    <p class="songs__author">The Who</p>
+                </div>
+                <button class="songs__play">
+                    <i class="songs__icon songs__icon_play"></i>
+                    <i class="songs__icon songs__icon_pause hidden"></i>
+                </button>
+                <audio src="music/whiskey_man.mp3"></audio>
+            </div>
+
+
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
